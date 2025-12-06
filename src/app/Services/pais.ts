@@ -6,7 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class Pais {
-  ruta = 'http://localhost:3000/api/paises';
+
+  ruta = 'http://localhost:5099/api/pais';
 
   constructor(private readonly http: HttpClient) { }
 
